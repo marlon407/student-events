@@ -1,6 +1,6 @@
 ## Getting Started
 
-Clone the repo:
+Clone the repo
 
 Install yarn:
 ```js
