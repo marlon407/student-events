@@ -11,10 +11,9 @@
     "yarn": ">=0.20.3"
   },
   "scripts": {
-    "start": "gulp serve",
+    "start": "./node_modules/gulp/bin/gulp.js serve",
     "start:debug": "cross-env DEBUG=express-mongoose-es6-rest-api:* yarn start",
-    "build": "gulp",
-    "postinstall": "gulp default",
+    "build": "./node_modules/gulp/bin/gulp.js",
     "lint": "esw *.js server config --color",
     "lint:watch": "yarn lint -- --watch",
     "precommit": "yarn lint && yarn test",
